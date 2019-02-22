@@ -1,0 +1,50 @@
+* {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.box-set {
+    position: relative;
+}
+
+.box {
+    position: relative;
+}
+
+.fixed-box {
+    background: lightyellow;
+    padding: 30px;
+    position: fixed;
+    height: 100px;
+    width: 200px;
+    top: 0;
+    left: 0;
+}
+
+.absolute-box {
+    padding: 30px;
+    position: absolute;
+    background: lightgrey;
+    height: 100px;
+    width: 200px;
+    right: -20px;
+    bottom: 0;
+    z-index: 2;
+}
+
+.relative-box {
+    padding: 30px;
+    position: relative;
+    background: lightpink;
+    height: 200px;
+}
